@@ -1,0 +1,22 @@
+﻿colorid
+{
+    border-style: solid;
+    border-color: coral;
+    width: 200px;
+}
+
+clid
+{
+color: aquamarine;    
+}
+p.normal {
+    font-weight: bold;
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+p.thicker {
+    font-weight: 900;
+}

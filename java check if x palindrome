@@ -1,0 +1,13 @@
+class Solution {
+    public boolean isPalindrome(int x) {
+        String text= String.valueOf(x);
+        for (int i=0; i< text.length(); i++) {
+            char currentchar= text.charAt(i);
+            char lastchar= text.charAt(text.length()-(1+i));
+            if (currentchar != lastchar){
+                return false;
+            }
+        }
+    return true;
+    }
+}
